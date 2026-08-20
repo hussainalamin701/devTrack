@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+.card {
+    @apply
+        bg-white
+        rounded-3xl
+        shadow-xl
+        p-6
+        min-h-48
+        transition-all
+        duration-300
+        hover:shadow-2xl
+        hover:-translate-y-1;
+}
