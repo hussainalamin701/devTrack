@@ -4,13 +4,15 @@ import Dashboard from "@/components/layout/Dashboard";
 
 export default function Home() {
     return (
-        <div className="min-h-screen bg-gradient-to-br from-blue-200 via-sky-100 to-yellow-100">
+        <div className="min-h-screen flex flex-col bg-gradient-to-br from-blue-200 via-sky-100 to-yellow-100">
+
             <Header />
 
-            <main className="grid grid-cols-[200px_1fr]">
+            <main className="flex flex-1 items-stretch">
                 <Sidebar />
                 <Dashboard />
             </main>
+
         </div>
     );
 }
